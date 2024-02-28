@@ -15,7 +15,7 @@ public class Department {
  
 
   public void draw() {
-    imageMode(CENTER);
+    //imageMode(CENTER);
     image(image, x, y);
     textAlign(CENTER, CENTER);
     fill(0);

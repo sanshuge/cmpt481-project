@@ -1,4 +1,4 @@
-String[]departments = {
+String[]department_list = {
 "Appliances",
 "Bath",
 "Blinds & Window Coverings",
@@ -25,10 +25,11 @@ String[]departments = {
 "Home services",
 "Tool Rental",
 "Refresh for Less",
-"Speicial Buy"};
+"Speicial Buy",
+"Switch"};
 
 // 27 in total 
-String[] iamges = {"Appliances.png",
+String[] images = {"Appliances.png",
 "Bath.png",
 "Blinds & Window Coverings.png",
 "Building Materials.png",
@@ -54,5 +55,6 @@ String[] iamges = {"Appliances.png",
 "Home services.png",
 "Tool Rental.png",
 "Refresh for Less.png",
-"Speicial Buy.png"
-}
+"Speicial Buy.png",
+"Switch.png"
+};

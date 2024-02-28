@@ -3,11 +3,16 @@ ArrayList<String> dptNames;
 ArrayList<String> fileNames;
 
 void setup(){
-  size(600,900);
+  size(1400,800);
   departments = new ArrayList<>();
-  for (String dpt : departments) dptNames.add(dpt);
+  dptNames = new ArrayList<>();
+  fileNames =  new ArrayList<>();
+  for (String dpt : department_list) dptNames.add(dpt);
   println(dptNames.size());
-   
+  for (String image : images) fileNames.add(image);
   
+  
+
+
 
 }
