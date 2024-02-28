@@ -27,8 +27,12 @@ String[]department_list = {
 "Refresh for Less",
 "Speicial Buy",
 "Switch"};
+String[]Appliances ={"Small Space Appliances","Kitchen Packages", "Washer & Dryer Sets"};
+String[]AppliancesImages ={"Small Space Appliances.png","Kitchen Packages.png", "Washer & Dryer Sets.png"};
+String[]SubAppliances = {};
 
-// 27 in total 
+String[]Bath={};
+// 28 in total 
 String[] images = {"Appliances.png",
 "Bath.png",
 "Blinds & Window Coverings.png",
@@ -56,5 +60,5 @@ String[] images = {"Appliances.png",
 "Tool Rental.png",
 "Refresh for Less.png",
 "Speicial Buy.png",
-"Switch.png"
+"Switch.png","Small Space Appliances.png","Kitchen Packages.png", "Washer & Dryer Sets.png"
 };
