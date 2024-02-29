@@ -25,14 +25,6 @@ void setup(){
     }
   }
   
- departmentMap = new HashMap<String, String[]>();
- subDepartmentMap = new HashMap<String, String[]>();
-
-departmentMap.put("Appliances",Appliances );
-subDepartmentMap.put("Small Space Appliances",SubAppliances1);
-subDepartmentMap.put("Kitchen Packages",SubAppliances2);
-subDepartmentMap.put("Washer & Dryer Sets", SubAppliances3);
-departmentMap.put("Bath",Bath );
 
 
 // build the tree
