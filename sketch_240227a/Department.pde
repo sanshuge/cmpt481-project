@@ -42,10 +42,6 @@ public class Department {
     
   }
 
- 
-   
- 
-
   public void draw() {
     //imageMode(CENTER);
     image(image, x, y);
