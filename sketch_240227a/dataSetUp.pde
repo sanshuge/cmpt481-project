@@ -1,12 +1,12 @@
-HashMap<String, String[]> departmentMap;
-HashMap<String, String[]> subDepartmentMap;
+HashMap<String, String[]> subDepartmentsMap = new HashMap<>();
+
 void setup(){
   size(1400,800);
   departments = new ArrayList<>();
   subDptsNames = new ArrayList<>();
   dptNames = new ArrayList<>();
   fileNames =  new ArrayList<>();
-  for (String dpt : department_list) dptNames.add(dpt);
+  for (String dpt : department1) dptNames.add(dpt);
   println(dptNames.size());
   for (String image : images) fileNames.add(image);
    int index;
@@ -26,8 +26,10 @@ void setup(){
   }
   
 
-
 // build the tree
+
+
+
 
 
 }

@@ -16,8 +16,7 @@ void mouseClicked(){
   if (d.isClicked()){
     d.selected = !d.selected;
     println("is clicked");
-    println(d.subDptsNames.size());
-    println(d.subDptsImages.size());
+   
     println(d.subDpts.size());   
 
     
