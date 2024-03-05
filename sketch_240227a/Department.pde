@@ -16,7 +16,7 @@ public class Department {
   }
   
   public void addSubDpt(String[] subDpts, String []subDptsImage){
-     String aname;
+   String aname;
   String fname;
   PImage image;
     for(int i =0;i<subDpts.length;i++) {
@@ -24,8 +24,8 @@ public class Department {
       aname = subDpts[i];
       fname = subDptsImage[i];
       image = loadImage("images/" + fname);
-      image.resize(300,300);
-      departments.add(new Department(i *200,i*300, aname, image));
+      image.resize(200,200);
+      this.subDpts.add(new Department(i *200,i*200, aname, image));
     }
    
    
@@ -37,6 +37,9 @@ public class Department {
     textAlign(CENTER, CENTER);
     fill(0);
 
+  }
+  public void drawSub(){
+    
   }
      
 

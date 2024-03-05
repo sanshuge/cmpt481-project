@@ -12,28 +12,54 @@ String[]department1 = {"Appliances","Bath","Blinds & Window Coverings","Building
 String[] department2 = {
     "Small Space Appliances", "Kitchen Packages", "Washer & Dryer Sets",  
     "Bathroom Vanities", "Bath Faucets", "Toilets",
-     "Horizontal Blinds", "Vertical Blinds", "Roller Shades",
-    "Lumber", "Concrete, Cement & Masonry", "Roofing",
+     "Blinds", "Shades", "Curtains & Drape Panels",
+    "Lumber", "Concrete", "Roofing",
     "Cleaning Supplies", "Vacuums & Floor Care", "Disinfectants",    
-    "Composite Decking", "Deck Boards", "Deck Railings",    
+    "Pressure-treated lumber", "Cedar", "Plywood",    
     "Home Decor", "Furniture", "Wall Decor",    
     "Interior Doors", "Exterior Doors", "Windows",    
-    "Breakers, Distributors & Load Centers", "Conduits & Fittings", "Outlets & Receptacles",    
-    "Hardwood Flooring", "Laminate Flooring", "Vinyl Flooring",    
-    "Door Hardware", "Cabinet Hardware", "Window Hardware",    
+     "Wire & Cable.png", "Dimmers, Switches & Outlets.png", "Breakers & Breaker Panels.png",   
+    "Flooring.png", "Tile.png", "Area Rugs, Mats & Runners.png",   
+    "Door Hardware", "Decorative Hardware", "Fasteners",    
     "Heaters", "Air Conditioners", "Ventilation",    
-    "Kitchen Cabinets", "Kitchen Countertops", "Kitchen Faucets",    
-    "Ceiling Lights", "Wall Lights", "Outdoor Lighting",    
-    "Grills", "Smokers", "Outdoor Kitchens",
-        "Patio Furniture", "Outdoor Decor", "Pergolas & Gazebos",    
+    "Kitchen Cabinets", "Kitchen Countertops", "Kitchen Sinks",    
+    "Interior Lighting", "Light Bulb", "Outdoor Lighting",    
+    "BBQs", "BBQ Accessories", "BBQ Fuel",
+    "Patio Furniture", "Outdoor Decor", "Pergolas & Gazebos",    
     "Interior Paint", "Exterior Paint", "Primers",    
-    "Plumbing Fixtures", "Pipe & Fittings", "Valves",    
+    "Plumbing Repair Parts", "Pipe & Fittings", "Valves",    
     "Smart Lighting", "Smart Security", "Smart Thermostats",    
     "Snow Blowers", "Ice Melt", "Snow Shovels",    
-    "Closet Storage", "Shelving Units", "Garage Storage",    
+    "Closet Storage", "Shelving Units", "Moving supplies",    
     "Hand Tools", "Power Tools", "Tool Storage",
-       "Holiday Decorations", "Outdoor Holiday Decor", "Seasonal Lighting"
+     "Holiday Decorations", "Outdoor Holiday Decor", "Seasonal Lighting"
 };
+String[] department2Images = {
+    "Small Space Appliances.png", "Kitchen Packages.png", "Washer & Dryer Sets.png",  
+    "Bathroom Vanities.png", "Bath Faucets.png", "Toilets.png",
+     "Blinds.png", "Shades.png", "Curtains & Drape Panels.png",
+    "Lumber.png", "Concrete.png", "Roofing.png",
+    "Cleaning Supplies.png", "Vacuums & Floor Care.png", "Disinfectants.png",    
+    "Pressure-treated lumber.png", "Cedar.png", "Plywood.png",    
+    "Home Decor.png", "Furniture.png", "Wall Decor.png",    
+    "Interior Doors.png", "Exterior Doors.png", "Windows.png",    
+    "Wire & Cable.png", "Dimmers, Switches & Outlets.png", "Breakers & Breaker Panels.png",   
+    "Flooring.png", "Tile.png", "Area Rugs, Mats & Runners.png",    
+    "Door Hardware.png", "Decorative Hardware.png", "Fasteners.png",    
+    "Heaters.png", "Air Conditioners.png", "Ventilation.png",    
+    "Kitchen Cabinets.png", "Kitchen Countertops.png", "Kitchen Sinks.png",    
+    "Interior Lighting.png", "Light Bulb.png", "Outdoor Lighting.png",    
+    "BBQs.png", "BBQ Accessories.png", "BBQ Fuel.png",
+    "Patio Furniture.png", "Outdoor Decor.png", "Pergolas & Gazebos.png",    
+    "Interior Paint.png", "Exterior Paint.png", "Primers.png",    
+    "Plumbing Repair Parts.png", "Pipe & Fittings.png", "Valves.png",    
+    "Smart Lighting.png", "Smart Security.png", "Smart Thermostats.png",    
+    "Snow Blowers.png", "Ice Melt.png", "Snow Shovels.png",    
+    "Closet Storage.png", "Shelving Units.png", "Moving supplies.png",    
+    "Hand Tools.png", "Power Tools.png", "Tool Storage.png",
+    "Holiday Decorations.png", "Outdoor Holiday Decor.png", "Seasonal Lighting.png"
+};
+
 // 207 sub sub dpts 
 String[] department3 = {
     // Appliances subcategories
@@ -162,6 +188,131 @@ String[] department3 = {
    
 };
 
+String[] department3Images = {
+    // Appliances subcategories
+    "Small Space Kitchen Appliances.png", "Small Space Cooking.png", "Small Space Laundry.png",
+    "Portable Appliances.png", "Countertop Appliances.png", "washer.png",
+    "dryer.png", "Appliance parts.png", "Kitchen Package.png",
+    
+    // Bath subcategories
+    "Modern Bathroom Vanities.png", "Double Sink Vanities.png", "Wall Mounted Vanities.png",
+    "Freestanding Vanities.png", "Single-Handle Faucets.png", "Double-Handle Faucets.png",
+    "Touchless Faucets.png", "Freestanding Bathtub Faucets.png", "One-Piece Toilets.png", 
+    
+    // Blinds & Window Coverings subcategories
+    "Wood Blinds.png", "Faux Wood Blinds.png", "Aluminum Blinds.png",
+    "Plastic Blinds.png", "Fabric Roller Shades.png", "Solar Roller Shades.png",
+    "Blackout Roller Shades.png", "Classic Roman Shades.png", "Folded Roman Shades.png",
+    
+    // Building Materials subcategories
+    "Pressure Treated Lumber.png", "Dimensional Lumber.png", "Studs.png",
+    "Plywood.png", "Concrete Mix.png", "Cement.png",
+    "Concrete Blocks.png", "Mortar.png", "Drywall Sheets.png", 
+   
+    
+    // Cleaning subcategories
+    "All-Purpose Cleaners.png", "Glass Cleaners.png", "Bathroom Cleaners.png",
+    "Floor Cleaners.png", "Upright Vacuums.png", "Canister Vacuums.png",
+    "Robotic Vacuums.png", "Steam Cleaners.png", "High-Efficiency Detergents.png",
+    
+    // Decking, Lumber & Composites subcategories
+    "Wood Decking Boards.png", "PVC Decking Boards.png", "Metal Decking Boards.png",
+    "Wood Railings.png", "Composite Railings.png", "Metal Railings.png",
+    "Step Lights.png", "Post Caps.png", "Deck Posts.png",
+    
+    // Decor & Furniture subcategories
+    "Picture Frames.png", "Wall Art.png", "Mirrors.png",
+    "Clocks.png", "Sofas.png", "Chairs.png",
+    "Tables.png", "Bedroom Sets.png", "Area Rugs.png",
+    
+    // Doors & Windows subcategories
+    "Slab Doors.png", "Prehung Doors.png", "Barn Doors.png",
+    "French Doors.png", "Front Doors.png", "Patio Doors.png",
+    "Storm Doors.png", "Screen Doors.png", "Single Hung Windows.png",
+    
+    // Electrical subcategories
+    "Circuit Breakers.png", "Service Panels.png", "Meter Sockets.png",
+    "Disconnects.png", "PVC Conduit.png", "Metal Conduit.png",
+    "Conduit Fittings.png", "Junction Boxes.png", "Standard Outlets.png",
+    
+    // Floors & Area Rugs subcategories
+    "Solid Hardwood.png", "Engineered Hardwood.png", "Bamboo Flooring.png",
+    "Cork Flooring.png", "Waterproof Laminate.png", "High Traffic Laminate.png",
+    "Laminate Underlayment.png", "Luxury Vinyl Plank.png", "Vinyl Sheet.png",
+  
+
+    // Hardware subcategories
+    "Door Knobs.png", "Door Levers.png", "Deadbolts.png",
+    "Door Hinges.png", "Cabinet Knobs.png", "Cabinet Pulls.png",
+    "Cabinet Hinges.png", "Drawer Slides.png", "Window Locks.png",
+
+    // Heating & Cooling subcategories
+    "Portable Heaters.png", "Baseboard Heaters.png", "Wall Heaters.png",
+    "Space Heaters.png", "Window Air Conditioners.png", "Portable Air Conditioners.png",
+    "Split Systems.png", "Central Air Conditioners.png", "Ceiling Fans.png",
+
+    // Kitchen subcategories
+    "Base Cabinets.png", "Wall Cabinets.png", "Pantry Cabinets.png",
+    "Cabinet Hardware.png", "Laminate Countertops.png", "Quartz Countertops.png",
+    "Granite Countertops.png", "Marble Countertops.png", "Pull Down Faucets.png",
+
+    // Lighting & Ceiling Fans subcategories
+    "Chandeliers.png", "Pendant Lights.png", "Flush Mount Lights.png",
+    "Recessed Lighting.png", "Wall Sconces.png", "Vanity Lighting.png",
+    "Picture Lights.png", "Outdoor Wall Lights.png", "Table Lamps.png",
+
+    // Outdoor Cooking & BBQs subcategories
+    "Gas Grills.png", "Charcoal Grills.png", "Pellet Grills.png",
+    "Electric Grills.png", "Offset Smokers.png", "Kettle Smokers.png",
+    "Electric Smokers.png", "Smoker Boxes.png", "Grill Covers.png",
+  
+    // Outdoor Living & Patio subcategories
+    "Patio Sets.png", "Outdoor Seating.png", "Patio Tables.png",
+    "Outdoor Umbrellas.png", "Outdoor Rugs.png", "Garden Statues.png",
+    "Outdoor Fountains.png", "Wind Chimes.png", "Fire Pits.png",
+ 
+
+    // Paint subcategories
+    "Wall & Trim Paint.png", "Ceiling Paint.png", "Kitchen & Bathroom Paint.png",
+    "Chalkboard Paint.png", "House Paint.png", "Deck Paint.png",
+    "Fence Paint.png", "Barn & Fence Paint.png", "Stain Blocking Primers.png",
+   
+    // Plumbing subcategories
+    "Kitchen Sinks.png", "Bathroom Sinks.png", "Toilets.png",
+    "Showers.png", "Copper Pipes.png", "PVC Pipes.png",
+    "PEX Pipes.png", "Pipe Fittings.png", "Ball Valves.png",
+   
+
+    // Smart Home subcategories
+    "Smart Bulbs.png", "Smart Switches.png", "Smart Plugs.png",
+    "Smart Light Strips.png", "Security Cameras.png", "Smart Locks.png",
+    "Video Doorbells.png", "Security Systems.png", "Programmable Thermostats.png",
+   
+
+    // Snow & Ice Removal subcategories
+    "Single-Stage Snow Blowers.png", "Two-Stage Snow Blowers.png", "Electric Snow Blowers.png",
+    "Snow Throwers.png", "Rock Salt.png", "Calcium Chloride.png",
+    "Magnesium Chloride.png", "Eco-Friendly Ice Melt.png", "Ergonomic Snow Shovels.png",
+  
+
+    // Storage & Organization subcategories
+    "Closet Organizers.png", "Shoe Racks.png", "Closet Rods.png",
+    "Closet Systems.png", "Freestanding Shelving Units.png", "Wall-Mounted Shelving.png",
+    "Wire Shelving.png", "Wood Shelving.png", "Garage Cabinets.png",
+   
+
+    // Tools subcategories
+    "Hammers.png", "Screwdrivers.png", "Wrenches.png",
+    "Pliers.png", "Drills.png", "Saws.png",
+    "Sanders.png", "Grinders.png", "Tool Boxes.png",
+ 
+
+    // Seasonal subcategories
+    "Christmas Trees.png", "Ornaments.png", "Holiday Lights.png",
+    "Wreaths & Garlands.png", "Inflatable Outdoor Decor.png", "Holiday Yard Stakes.png",
+    "Outdoor Nativity Sets.png", "Seasonal Solar Lights.png", "Festive String Lights.png",
+   
+};
 
 
 // This completes the subcategory structures for the departments listed. These are just examples, and the actual subcategories might vary based on the store's inventory and seasonal changes.
@@ -193,5 +344,157 @@ String[] images = {"Appliances.png",
 "Tool Rental.png",
 "Refresh for Less.png",
 "Speicial Buy.png",
-"Switch.png","Small Space Appliances.png","Kitchen Packages.png", "Washer & Dryer Sets.png"
+"Switch.png",
+
+ "Small Space Appliances.png", "Kitchen Packages.png", "Washer & Dryer Sets.png",  
+    "Bathroom Vanities.png", "Bath Faucets.png", "Toilets.png",
+     "Blinds.png", "Shades.png", "Curtains & Drape Panels.png",
+    "Lumber.png", "Concrete.png", "Roofing.png",
+    "Cleaning Supplies.png", "Vacuums & Floor Care.png", "Disinfectants.png",    
+    "Pressure-treated lumber.png", "Cedar.png", "Plywood.png",    
+    "Home Decor.png", "Furniture.png", "Wall Decor.png",    
+    "Interior Doors.png", "Exterior Doors.png", "Windows.png",    
+    "Wire & Cable.png", "Dimmers, Switches & Outlets.png", "Breakers & Breaker Panels.png",   
+    "Flooring.png", "Tile.png", "Area Rugs, Mats & Runners.png",   
+       "Door Hardware.png", "Decorative Hardware.png", "Fasteners.png",    
+
+    "Heaters.png", "Air Conditioners.png", "Ventilation.png",    
+    "Kitchen Cabinets.png", "Kitchen Countertops.png", "Kitchen Sinks.png",    
+    "Interior Lighting.png", "Light Bulb.png", "Outdoor Lighting.png",    
+    "BBQs.png", "BBQ Accessories.png", "BBQ Fuel.png",
+    "Patio Furniture.png", "Outdoor Decor.png", "Pergolas & Gazebos.png",    
+    "Interior Paint.png", "Exterior Paint.png", "Primers.png",    
+    "Plumbing Repair Parts.png", "Pipe & Fittings.png", "Valves.png",    
+    "Smart Lighting.png", "Smart Security.png", "Smart Thermostats.png",    
+    "Snow Blowers.png", "Ice Melt.png", "Snow Shovels.png",    
+    "Closet Storage.png", "Shelving Units.png", "Moving supplies.png",    
+    "Hand Tools.png", "Power Tools.png", "Tool Storage.png",
+    "Holiday Decorations.png", "Outdoor Holiday Decor.png", "Seasonal Lighting.png",
+    
+    
+    
+    
+     "Small Space Kitchen Appliances.png", "Small Space Cooking.png", "Small Space Laundry.png",
+    "Portable Appliances.png", "Countertop Appliances.png", "washer.png",
+    "dryer.png", "Appliance parts.png", "Kitchen Package.png",
+    // Placeholder for four more - Add your own entries here if needed
+    
+    // Bath subcategories
+    "Modern Bathroom Vanities.png", "Double Sink Vanities.png", "Wall Mounted Vanities.png",
+    "Freestanding Vanities.png", "Single-Handle Faucets.png", "Double-Handle Faucets.png",
+    "Touchless Faucets.png", "Freestanding Bathtub Faucets.png", "One-Piece Toilets.png", 
+    
+    // Blinds & Window Coverings subcategories
+    "Wood Blinds.png", "Faux Wood Blinds.png", "Aluminum Blinds.png",
+    "Plastic Blinds.png", "Fabric Roller Shades.png", "Solar Roller Shades.png",
+    "Blackout Roller Shades.png", "Classic Roman Shades.png", "Folded Roman Shades.png",
+    
+    // Building Materials subcategories
+    "Pressure Treated Lumber.png", "Dimensional Lumber.png", "Studs.png",
+    "Plywood.png", "Concrete Mix.png", "Cement.png",
+    "Concrete Blocks.png", "Mortar.png", "Drywall Sheets.png", 
+   
+    
+    // Cleaning subcategories
+    "All-Purpose Cleaners.png", "Glass Cleaners.png", "Bathroom Cleaners.png",
+    "Floor Cleaners.png", "Upright Vacuums.png", "Canister Vacuums.png",
+    "Robotic Vacuums.png", "Steam Cleaners.png", "High-Efficiency Detergents.png",
+    
+    // Decking, Lumber & Composites subcategories
+    "Wood Decking Boards.png", "PVC Decking Boards.png", "Metal Decking Boards.png",
+    "Wood Railings.png", "Composite Railings.png", "Metal Railings.png",
+    "Step Lights.png", "Post Caps.png", "Deck Posts.png",
+    
+    // Decor & Furniture subcategories
+    "Picture Frames.png", "Wall Art.png", "Mirrors.png",
+    "Clocks.png", "Sofas.png", "Chairs.png",
+    "Tables.png", "Bedroom Sets.png", "Area Rugs.png",
+    
+    // Doors & Windows subcategories
+    "Slab Doors.png", "Prehung Doors.png", "Barn Doors.png",
+    "French Doors.png", "Front Doors.png", "Patio Doors.png",
+    "Storm Doors.png", "Screen Doors.png", "Single Hung Windows.png",
+    
+    // Electrical subcategories
+    "Circuit Breakers.png", "Service Panels.png", "Meter Sockets.png",
+    "Disconnects.png", "PVC Conduit.png", "Metal Conduit.png",
+    "Conduit Fittings.png", "Junction Boxes.png", "Standard Outlets.png",
+    
+    // Floors & Area Rugs subcategories
+    "Solid Hardwood.png", "Engineered Hardwood.png", "Bamboo Flooring.png",
+    "Cork Flooring.png", "Waterproof Laminate.png", "High Traffic Laminate.png",
+    "Laminate Underlayment.png", "Luxury Vinyl Plank.png", "Vinyl Sheet.png",
+  
+
+    // Hardware subcategories
+    "Door Knobs.png", "Door Levers.png", "Deadbolts.png",
+    "Door Hinges.png", "Cabinet Knobs.png", "Cabinet Pulls.png",
+    "Cabinet Hinges.png", "Drawer Slides.png", "Window Locks.png",
+
+    // Heating & Cooling subcategories
+    "Portable Heaters.png", "Baseboard Heaters.png", "Wall Heaters.png",
+    "Space Heaters.png", "Window Air Conditioners.png", "Portable Air Conditioners.png",
+    "Split Systems.png", "Central Air Conditioners.png", "Ceiling Fans.png",
+
+    // Kitchen subcategories
+    "Base Cabinets.png", "Wall Cabinets.png", "Pantry Cabinets.png",
+    "Cabinet Hardware.png", "Laminate Countertops.png", "Quartz Countertops.png",
+    "Granite Countertops.png", "Marble Countertops.png", "Pull Down Faucets.png",
+
+    // Lighting & Ceiling Fans subcategories
+    "Chandeliers.png", "Pendant Lights.png", "Flush Mount Lights.png",
+    "Recessed Lighting.png", "Wall Sconces.png", "Vanity Lighting.png",
+    "Picture Lights.png", "Outdoor Wall Lights.png", "Table Lamps.png",
+
+    // Outdoor Cooking & BBQs subcategories
+    "Gas Grills.png", "Charcoal Grills.png", "Pellet Grills.png",
+    "Electric Grills.png", "Offset Smokers.png", "Kettle Smokers.png",
+    "Electric Smokers.png", "Smoker Boxes.png", "Grill Covers.png",
+  
+    // Outdoor Living & Patio subcategories
+    "Patio Sets.png", "Outdoor Seating.png", "Patio Tables.png",
+    "Outdoor Umbrellas.png", "Outdoor Rugs.png", "Garden Statues.png",
+    "Outdoor Fountains.png", "Wind Chimes.png", "Fire Pits.png",
+ 
+
+    // Paint subcategories
+    "Wall & Trim Paint.png", "Ceiling Paint.png", "Kitchen & Bathroom Paint.png",
+    "Chalkboard Paint.png", "House Paint.png", "Deck Paint.png",
+    "Fence Paint.png", "Barn & Fence Paint.png", "Stain Blocking Primers.png",
+   
+    // Plumbing subcategories
+    "Kitchen Sinks.png", "Bathroom Sinks.png", "Toilets.png",
+    "Showers.png", "Copper Pipes.png", "PVC Pipes.png",
+    "PEX Pipes.png", "Pipe Fittings.png", "Ball Valves.png",
+   
+
+    // Smart Home subcategories
+    "Smart Bulbs.png", "Smart Switches.png", "Smart Plugs.png",
+    "Smart Light Strips.png", "Security Cameras.png", "Smart Locks.png",
+    "Video Doorbells.png", "Security Systems.png", "Programmable Thermostats.png",
+   
+
+    // Snow & Ice Removal subcategories
+    "Single-Stage Snow Blowers.png", "Two-Stage Snow Blowers.png", "Electric Snow Blowers.png",
+    "Snow Throwers.png", "Rock Salt.png", "Calcium Chloride.png",
+    "Magnesium Chloride.png", "Eco-Friendly Ice Melt.png", "Ergonomic Snow Shovels.png",
+  
+
+    // Storage & Organization subcategories
+    "Closet Organizers.png", "Shoe Racks.png", "Closet Rods.png",
+    "Closet Systems.png", "Freestanding Shelving Units.png", "Wall-Mounted Shelving.png",
+    "Wire Shelving.png", "Wood Shelving.png", "Garage Cabinets.png",
+   
+
+    // Tools subcategories
+    "Hammers.png", "Screwdrivers.png", "Wrenches.png",
+    "Pliers.png", "Drills.png", "Saws.png",
+    "Sanders.png", "Grinders.png", "Tool Boxes.png",
+ 
+
+    // Seasonal subcategories
+    "Christmas Trees.png", "Ornaments.png", "Holiday Lights.png",
+    "Wreaths & Garlands.png", "Inflatable Outdoor Decor.png", "Holiday Yard Stakes.png",
+    "Outdoor Nativity Sets.png", "Seasonal Solar Lights.png", "Festive String Lights.png",
+   
 };
